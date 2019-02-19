@@ -1,13 +1,10 @@
 import React from 'react';
 import {render} from 'react-dom';
+import App from "./App";
 
-const root = document.getElementById('root');
-
-const App = (props) => (
-        <div>
-            {props.children}
-        </div>
+const Root = () => (
+        <App/>
 );
 
-render(<App/>, root);
+render(<Root/>, document.getElementById('root'));
 
