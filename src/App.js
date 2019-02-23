@@ -1,8 +1,9 @@
 import React from 'react';
-import Button from "./components/button";
+import Button from "./components/";
+import ListContainer from "./components/listContainer";
 
 const App = () => (
-    <Button color="yellow"/>
+    <ListContainer/>
 );
 
 export default App;
